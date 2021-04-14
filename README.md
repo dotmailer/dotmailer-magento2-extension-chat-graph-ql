@@ -1,20 +1,43 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# dotdigital ChatGraphQl
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.md)
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## About this module
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+**Dotdigitalgroup_ChatGraphQl** supports our [dotdigital Chat](https://github.com/dotmailer/dotmailer-magento2-extension-chat) module.
+It provides type and resolver information for Magento to generate endpoints for:
+- fetching chat configuration data from the instance
+- sending customer data to update the chat profile
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Requirements
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+- This module requires the `Dotdigitalgroup_Chat` module v1.0.0+
+
+## Endpoints
+
+**Queries**
+```
+query GetChatData {
+        chatData {
+            is_enabled
+            api_space_id
+            cookie_name
+        }
+    }
+```
+
+**Mutations**
+```
+mutation UpdateChatProfile(
+        $profileId: String!,
+        $email: String,
+        $firstname: String,
+        $lastname: String
+    ) {
+        updateChatProfile(
+            profileId: $profileId,
+            email: $email,
+            firstname: $firstname,
+            lastname: $lastname
+        )
+    }
+```
