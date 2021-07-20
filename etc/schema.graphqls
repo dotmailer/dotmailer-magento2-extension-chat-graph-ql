@@ -1,3 +1,4 @@
+// @codingStandardsIgnoreFile
 type Query {
     chatData: chatData @resolver (class: "\\Dotdigitalgroup\\ChatGraphQl\\Model\\Resolver\\ChatData") @doc(description:"Retrieves an array of configuration data for the chat widget.")
 }
