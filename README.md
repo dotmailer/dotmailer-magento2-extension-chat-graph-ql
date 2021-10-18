@@ -1,9 +1,9 @@
-# dotdigital ChatGraphQl
+# Dotdigital ChatGraphQl
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.md)
 
 ## About this module
 
-**Dotdigitalgroup_ChatGraphQl** supports our [dotdigital Chat](https://github.com/dotmailer/dotmailer-magento2-extension-chat) module.
+**Dotdigitalgroup_ChatGraphQl** supports our [Dotdigital Chat](https://github.com/dotmailer/dotmailer-magento2-extension-chat) module.
 It provides type and resolver information for Magento to generate endpoints for:
 - fetching chat configuration data from the instance
 - sending customer data to update the chat profile
