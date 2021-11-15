@@ -4,7 +4,7 @@ type Query {
 }
 
 type Mutation {
-    updateChatProfile(profileId: String!, email: String, firstname: String, lastname: String): Boolean @doc(description:"Sends chat profile data to Engagement Cloud.") @resolver(class: "Dotdigitalgroup\\ChatGraphQl\\Model\\Resolver\\UpdateChatProfile")
+    updateChatProfile(profileId: String!, email: String, firstname: String, lastname: String): Boolean @doc(description:"Sends chat profile data to Dotdigital.") @resolver(class: "Dotdigitalgroup\\ChatGraphQl\\Model\\Resolver\\UpdateChatProfile")
 }
 
 type chatData {
