@@ -1,5 +1,5 @@
 {
-    "name": "dotmailer/dotmailer-magento2-extension-chat-graph-ql",
+    "name": "dotdigital/dotdigital-magento2-extension-chat-graph-ql",
     "description": "Dotdigital for Magento 2: Chat GraphQl module",
     "type": "magento2-module",
     "version": "1.1.0-RC1",
@@ -10,9 +10,12 @@
             "url": "https://repo.magento.com/"
         }
     ],
+    "replace": {
+        "dotmailer/dotmailer-magento2-extension-chat-graph-ql": "*"
+    },
     "require": {
-        "dotmailer/dotmailer-magento2-extension": "^4.10.0",
-        "dotmailer/dotmailer-magento2-extension-chat": "^1.0.0",
+        "dotmailer/dotmailer-magento2-extension": "^4.14.0",
+        "dotmailer/dotmailer-magento2-extension-chat": "^1.6.0",
         "magento/framework": ">=101 <104",
         "magento/module-config": ">=100 <103",
         "magento/module-backend": ">=100 <103",
