@@ -10,7 +10,7 @@ It provides type and resolver information for Magento to generate endpoints for:
 
 ## Requirements
 
-- This module requires the `Dotdigitalgroup_Chat` module v1.0.0+
+- This module requires the `Dotdigitalgroup_Chat` module v1.6.0+
 
 ## Endpoints
 
@@ -41,6 +41,14 @@ mutation UpdateChatProfile(
         )
     }
 ```
+
+## 1.1.0-RC1
+
+##### What's new
+- This module has been renamed `dotdigital/dotdigital-magento2-extension-chat-graph-ql`.
+
+##### Improvements
+- `setup_version` has been removed from module.xml.
 
 ## 1.0.0
 - Initial release
