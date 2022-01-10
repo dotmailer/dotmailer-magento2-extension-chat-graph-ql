@@ -1,16 +1,18 @@
 # Dotdigital ChatGraphQl
+[![Packagist Version](https://img.shields.io/packagist/v/dotdigital/dotdigital-magento2-extension-chat-graph-ql?color=green&label=stable)](https://github.com/dotmailer/dotmailer-magento2-extension-chat-graph-ql/releases)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE.md)
 
 ## About this module
-
 **Dotdigitalgroup_ChatGraphQl** supports our [Dotdigital Chat](https://github.com/dotmailer/dotmailer-magento2-extension-chat) module.
 It provides type and resolver information for Magento to generate endpoints for:
 - fetching chat configuration data from the instance
 - sending customer data to update the chat profile
 
 ## Requirements
-
 - This module requires the `Dotdigitalgroup_Chat` module v1.6.0+
+
+## Installation
+- This module is included in all our metapackages. Please refer to [these instructions](https://github.com/dotmailer/dotmailer-magento2-extension#installation) to install via the Magento Marketplace.
 
 ## Endpoints
 
@@ -42,7 +44,9 @@ mutation UpdateChatProfile(
     }
 ```
 
-## 1.1.0-RC1
+## Changelog
+
+### 1.1.0
 
 ##### What's new
 - This module has been renamed `dotdigital/dotdigital-magento2-extension-chat-graph-ql`.
@@ -50,5 +54,5 @@ mutation UpdateChatProfile(
 ##### Improvements
 - `setup_version` has been removed from module.xml.
 
-## 1.0.0
+### 1.0.0
 - Initial release
