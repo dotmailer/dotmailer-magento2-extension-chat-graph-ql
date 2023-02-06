@@ -35,6 +35,8 @@ class ChatData implements ResolverInterface
     }
 
     /**
+     * Return chat data.
+     *
      * @param Field $field
      * @param \Magento\Framework\GraphQl\Query\Resolver\ContextInterface $context
      * @param ResolveInfo $info
