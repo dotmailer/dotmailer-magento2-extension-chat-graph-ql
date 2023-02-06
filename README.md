@@ -46,6 +46,11 @@ mutation UpdateChatProfile(
 
 ## Changelog
 
+### 1.1.1
+
+##### Improvements
+- We updated our installation instructions.
+
 ### 1.1.0
 
 ##### What's new
