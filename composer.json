@@ -14,14 +14,10 @@
         "dotmailer/dotmailer-magento2-extension-chat-graph-ql": "*"
     },
     "require": {
-        "dotdigital/dotdigital-magento2-extension": "^4.14.0",
+        "php": "^7.4||^8.0",
         "dotdigital/dotdigital-magento2-extension-chat": "^1.6.0",
-        "magento/framework": ">=101 <104",
-        "magento/module-config": ">=100 <103",
-        "magento/module-backend": ">=100 <103",
-        "magento/module-quote": ">=100 <103",
-        "magento/module-checkout": ">=100 <103",
-        "magento/module-sales": ">=100 <104"
+        "magento/framework": ">=102 <104",
+        "magento/module-store": ">=101 <102"
     },
     "autoload": {
         "files": [ "registration.php" ],
