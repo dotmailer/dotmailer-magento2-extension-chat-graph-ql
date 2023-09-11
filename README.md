@@ -46,6 +46,11 @@ mutation UpdateChatProfile(
 
 ## Changelog
 
+### 1.1.2
+
+##### Improvements
+- We've updated the module's dependencies. The module now requires PHP 7.4+ and Magento 2.3.7+.
+
 ### 1.1.1
 
 ##### Improvements
