@@ -46,6 +46,11 @@ mutation UpdateChatProfile(
 
 ## Changelog
 
+### 1.1.3
+
+##### Improvements
+- We updated our code for compatibility with PHP 8.4.
+
 ### 1.1.2
 
 ##### Improvements
