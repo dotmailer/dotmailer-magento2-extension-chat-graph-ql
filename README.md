@@ -46,6 +46,11 @@ mutation UpdateChatProfile(
 
 ## Changelog
 
+### 1.1.4
+
+##### Improvements
+- We updated a dependency on the parent Chat module.
+
 ### 1.1.3
 
 ##### Improvements
